@@ -9,7 +9,7 @@ Our Image Encryption/Decryption method based on:
 
 - <i> AES ([Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)) </i> 
 
-This is my implementation of 3 main parts:
+My implementation can be introduced by four main parts:
 - [Encryption](#encrypt) 
 - [Decryption](#decrypt) 
 - [Evaluation](#eval)
