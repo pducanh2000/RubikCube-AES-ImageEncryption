@@ -18,7 +18,9 @@ This is my implementation of 3 main parts:
 <a name= encrypt></a>
 ## <u> <b> Encryption </u> </b>
 
-![encrypt_flow]("images/encrypt_flow.PNG")
+<div align="center">
+  <img src="images/encrypt_flow.png" width="600">
+</div>
 
 - Three channels of the image are splited before encrypting with Rubik cube algorithm. The key of the encryption is encrypted by AES. 
 
@@ -28,7 +30,9 @@ This is my implementation of 3 main parts:
 <a name= decrypt></a>
 ## <u> <b> Decryption </u> </b>
 
-![decrypt_flow]("images/decrypt_flow.PNG")
+<div align="center">
+  <img src="images/decrypt_flow.png" width="600">
+</div>
 
 The flow of decryption is the inverse transformation which is described below:
 - Split the encrypted image to 3 encrypted channels
@@ -44,15 +48,19 @@ The Encrypted Image
 I propose two measures to quantify the differ between the encrypted image and its original form:
 - Number of pixels change rate (NPCR)
 - The unified average changing intensity (UACI)
-![eval_functions]("images/eval_functions.PNG")
+
+
+<div align="center">
+  <img src="images/eval_functions.PNG" width="600">
+</div>
 
 <a name= result></a>
 ## <u> <b> Results </u> </b>
 
 ### Original Image and Encrypted Image
-![ori_enc_img]("images/ori_enc_img.PNG")
+![ori_enc_img](images/ori_enc_img.PNG)
 
 ### Histogram 
-![histogram]("images/histogram.PNG")
+![histogram](images/histogram.PNG)
 
 
